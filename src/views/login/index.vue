@@ -7,7 +7,8 @@
         auto-complete="on"></el-input>
       </el-form-item>
       <el-form-item class="login-form-pwd" label="密码" prop="password">
-        <el-input type="password" auto-complete="new-password" placeholder="请输入密码" v-model="form.password" @keyup.enter.native="login"></el-input>
+        <el-input type="password" auto-complete="new-password" placeholder="请输入密码" v-model="form.password"
+            @keyup.enter.native="login"></el-input>
         <a href="javascript:void(0);" class="forget-pwd" @click="$router.push({ path: '/login/resetPasswordRequest' })">
         忘记密码?
         </a>
