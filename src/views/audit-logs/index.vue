@@ -15,7 +15,7 @@
           </el-date-picker>
         </el-form-item>
         <el-form-item>
-          <el-input v-model="listQuery.textSearch" placeholder="查找审计日志" @keyup.enter.native="getList(listQuery)"></el-input>
+          <el-input v-model="listQuery.textSearch" placeholder="查找审计日志" @keyup.enter.native="getList(listQuery)"/>
         </el-form-item>
         <el-form-item>
           <el-button type="primary" @click="getList(listQuery)">查询</el-button>
